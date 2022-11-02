@@ -16,10 +16,11 @@ html, body{
    
 }
 .cuadrado-login{
-    height: 20%;
+    height: 25%;
     background-color:red;
     border-radius: 20px;
-   
+    display: flex;
+          
     
 } 
 
@@ -48,13 +49,12 @@ form {
 
 label{
     width: 100%;
-    align-items: center;
     color: white;
     font-style: bold;
 }
 input{
-    width: 70%;
-    height: 20px;
+    width: 80%;
+    height: 30px;
     border-radius: 5px;
     margin-top: 5px;
 }
@@ -62,6 +62,7 @@ input{
 .boton{
     width: 100%;
     display:flex;
+    
    
 
 }
@@ -69,12 +70,14 @@ button{
     color: white;
     border-radius: 5px solid;
     background-color: rgb(39, 00, 99);
-    align-content: center;
-
+    
 }
 .container-img{
+    width: 90%;
+    height:100%;
     background-image: url("https://cdn141.picsart.com/309256231011211.png?type=webp&to=min&r=640");
     background-repeat: no-repeat;
-   
+    background-size: 250px;
+    background-position: center;
 
 }
