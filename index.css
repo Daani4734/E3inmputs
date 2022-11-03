@@ -30,13 +30,13 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 
 }
 form {
     width: 100%;
     height: 100%;
     display: flex;
-    text-align: center;
     flex-wrap: wrap;
     overflow: hidden;
     
@@ -62,7 +62,8 @@ input{
 .boton{
     width: 100%;
     display:flex;
-    
+    align-items: center;
+    justify-content: flex-start;
    
 
 }
@@ -70,6 +71,8 @@ button{
     color: white;
     border-radius: 5px solid;
     background-color: rgb(39, 00, 99);
+    margin-bottom: 30px;
+    width: 180px;
     
 }
 .container-img{
